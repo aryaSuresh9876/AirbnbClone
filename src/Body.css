@@ -1,0 +1,133 @@
+.border-top{
+    border-top: 1px solid lightgrey;
+    width: 100%;
+    height: 2px;
+    padding: 0;
+    margin: 0;
+}
+
+.icons{
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.icon p{
+    font-size: 13px;
+    font-weight: 400;
+}
+.icon{
+    text-align: center;
+    color: #6a6a6a;
+    font-size: 23px;
+}
+.icon-body{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 6px 9px;
+    gap: 10px;
+    border-radius: 12px;
+    height: 36px;
+    align-items: center;
+}
+.btn p{
+    font-size: 13px;
+    font-style: bold;
+    font-weight: 400;
+}
+.display-total{
+    display: flex;
+    align-items: center;
+}
+.icons-container{
+    display: flex;
+    align-items: center;
+    width: 1115px;
+    justify-content: space-between;
+}
+.scroll-btn{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    background-color: white;
+    padding: 12px;
+    width: 40px;
+    height: 40px;
+}
+.item-container{
+    margin-top: 23px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 25px;
+    row-gap: 28px;
+}
+.item{
+    width: 290px;
+}
+
+.img{
+    width: 100%;
+    height: 290px;
+    object-fit: fill;
+    border-radius: 23px;
+}
+
+.content-div{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+.right-div{
+    font-size: 12px;
+}
+.left-div{
+    line-height: 20px;
+}
+.left-div .property-name{
+    font-size: 16px;
+    font-style: bold;
+    font-weight: 600;
+}
+.left-div .date, .distance{
+    font-size: 15px;
+    color: #6a6a6a;
+    font-weight: 400;
+}
+
+.left-div .rate{
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.img-container{
+    position: relative;
+}
+
+.img-container i{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 19px;
+    color: #6a6a6a;
+}
+.body{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.toggle-btn{
+    padding: 10px 20px;
+    background-color: #6a6a6a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}

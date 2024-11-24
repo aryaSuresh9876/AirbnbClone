@@ -1,0 +1,21 @@
+[
+    { "name": "OMG!", "icon": "fas fa-thin fa-image"},
+    { "name": "Icons", "icon": "fas fa-thin fa-camera-retro"},
+    { "name": "Beachfront", "icon": "fas fa-thin fa-face-smile"},
+    { "name": "lakefront", "icon": "fas fa-thin fa-slack"},
+    { "name": "Treehouses", "icon": "fas fa-thin fa-bell"},
+    { "name": "grid", "icon": "fas fa-thin fa-apple"},
+    { "name": "Amazing views", "icon": "fas fa-thin fa-pen"},
+    { "name": "Amazing pools", "icon": "fas fa-thin fa-cart-shopping"},
+    { "name": "Farms", "icon": "fas fa-thin fa-face-smile"},
+    { "name": "Castles", "icon": "fas fa-thin fa-ghost"},
+    { "name": "Rooms", "icon": "fas fa-thin fa-clipboard"},
+    { "name": "Luxe", "icon": "fas fa-thin fa-file"},
+    { "name": "Cabins", "icon": "fas fa-thin fa-figma"},
+    { "name": "Tiny homes", "icon": "fas fa-thin fa-mug-hot"},
+    { "name": "Islands", "icon": "fas fa-thin fa-filter"},
+    { "name": "Countryside", "icon": "fas fa-thin fa-paperclip"},
+    { "name": "Historical homes", "icon": "fas fa-thin fa-hippo"},
+    { "name": "Mansions", "icon": "fas fa-thin fa-pen-nib"},
+    { "name": "Design", "icon": "fas fa-thin fa-truck-fast"}
+]
