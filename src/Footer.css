@@ -1,0 +1,78 @@
+.footer{
+    background-color: #f7f7f7;
+}
+.footer-container h2{
+    font-size: 23px;
+    color: #222222;
+    font-weight: 500;
+}
+
+.footer-links-container{
+    margin-top: 23px;
+}
+
+.border-down{
+    border-bottom: 1px solid lightgray;
+    margin-top: 13px;
+}
+
+.footer-links{
+    display: flex;
+    gap: 30px;
+}
+.footer-links a{
+    cursor: pointer;
+    font-size: 14px;
+    color: #6a6a6a;
+    font-weight: 500;
+}
+.footer-link-div{
+    position: relative;
+}
+.footer-link-div .active{
+    position: absolute;
+    border-bottom: 2px #222222 solid;
+    bottom: -14px;
+    width: 100%;
+}
+.footer-items{
+    margin-top: 26px;
+    margin-bottom: 18px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 15px;
+}
+.footer-item{
+    line-height: 8px;
+}
+.footer-item .p-name{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.footer-item .p-description{
+    font-size: 13px;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.border-bottom-no-margin{
+    border-bottom: 1px lightgray solid;
+
+}
+.sec-footer-container-div{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+margin-top: 19px;
+}
+.sec-footer{
+    line-height: 23px;
+}
+.sec-footer p{
+    font-weight: 600;
+    font-size: 14px;
+}
+.sec-footer-container-div a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #222222;
+}

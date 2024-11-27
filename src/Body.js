@@ -30,7 +30,10 @@ const Body = () => {
 
             <div className="btn display-total">
               <p>Display total before taxes</p>
-              <button className="toggle-btn"></button>
+              <div className="toggle-switch">
+                <input type="checkbox" id='toggle'/>
+                <label for="toggle"></label>
+              </div>
             </div>
           </div>
           <div className="item-container">
@@ -55,6 +58,10 @@ const Body = () => {
                 </div>
             </div>
             ))}            
+          </div>
+          <div className="explore-more">
+            <p>Continue exploring OMG! homes</p>
+            <button className="show-more">Show more</button>
           </div>
         </div>       
     </div>

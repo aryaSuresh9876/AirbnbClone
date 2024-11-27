@@ -131,3 +131,55 @@
     cursor: pointer;
     border: none;
 }
+.toggle-switch{
+    width: 45px;
+    height: 30px;
+    position: relative;
+    border-radius: 60px;
+    background-color: #b0b0b0;
+    transition: background-color 0.3s ease;
+}
+.toggle-switch input{
+    display: none;
+}
+.toggle-switch label::after{
+    padding: 1px;
+    content: "";
+    border-radius: 50%;
+    background-color: white;
+    width: 19px;
+    height: 19px;
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    transition: transform 0.3s ease;
+}
+.toggle-switch:hover{
+    background-color: #222222;
+}
+.toggle-swtich input:checked + label{
+    background-color: #222222;
+}
+.toggle-switch input:checked + label::after{
+    transform: translateX(18px);
+}
+.explore-more{
+    margin-top:45px;
+    text-align: center;
+}
+.explore-more p{
+    font-size: 19px;
+    font-weight: 500;
+    font-style: bold;
+}
+.explore-more .show-more{
+    padding: 12px 19px;
+    border-radius: 12px;
+    background-color: #222222;
+    color: white;
+    font-size: 16px;
+}
+.show-more:hover{
+    background-color: #000000;
+    cursor: pointer;
+}

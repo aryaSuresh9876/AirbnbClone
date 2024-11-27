@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import '@fortawesome/fontawesome-free/css/all.css';
 import Header from './Header';
 import Body from './Body';
+import Footer from './Footer';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
   <>
     <Header/>
     <Body/>
+    <Footer/>
   </>
 );
 

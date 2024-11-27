@@ -1,0 +1,51 @@
+{
+  "Popular": [
+    { "name": "Canmore", "description": "Pet-friendly rentals" },
+    { "name": "Marbella", "description": "Cottage rentals" },
+    { "name": "Paris", "description": "Romantic getaways" },
+    { "name": "Santorini", "description": "Sea-view villas" },
+    { "name": "Bali", "description": "Beachside escapes" }
+  ],
+  "Arts & Culture": [
+    { "name": "Phoenix", "description": "Rentals with pools" },
+    { "name": "Florence", "description": "Historic homes" },
+    { "name": "Kyoto", "description": "Traditional stays" },
+    { "name": "Vienna", "description": "Opera district apartments" },
+    { "name": "Istanbul", "description": "Old town boutique stays" }
+  ],
+  "Adventure": [
+    { "name": "Banff", "description": "Mountain cabins" },
+    { "name": "Queenstown", "description": "Ski lodges" },
+    { "name": "Costa Rica", "description": "Rainforest retreats" },
+    { "name": "Reykjavik", "description": "Northern lights stays" },
+    { "name": "Cape Town", "description": "Safari base camps" }
+  ],
+  "Family Getaways": [
+    { "name": "Orlando", "description": "Theme park stays" },
+    { "name": "Lake Tahoe", "description": "Lakeside houses" },
+    { "name": "Barcelona", "description": "Family-friendly apartments" },
+    { "name": "Gold Coast", "description": "Beach houses" },
+    { "name": "Toronto", "description": "Urban family getaways" }
+  ],
+  "Luxury": [
+    { "name": "Dubai", "description": "High-rise penthouses" },
+    { "name": "Maldives", "description": "Overwater bungalows" },
+    { "name": "Monaco", "description": "Luxury yachts" },
+    { "name": "Aspen", "description": "Ski-in, ski-out resorts" },
+    { "name": "Maui", "description": "Private beachfront villas" }
+  ],
+  "Nature Retreats": [
+    { "name": "Yosemite", "description": "Cabins in the woods" },
+    { "name": "Patagonia", "description": "Remote lodges" },
+    { "name": "Amazon", "description": "Eco-friendly stays" },
+    { "name": "Alaska", "description": "Glacier-side retreats" },
+    { "name": "New Zealand", "description": "Countryside cottages" }
+  ],
+  "City Breaks": [
+    { "name": "New York", "description": "Central apartments" },
+    { "name": "London", "description": "Downtown flats" },
+    { "name": "Tokyo", "description": "Capsule hotels" },
+    { "name": "Singapore", "description": "Marina Bay suites" },
+    { "name": "Hong Kong", "description": "Skyline view rooms" }
+  ]
+}
