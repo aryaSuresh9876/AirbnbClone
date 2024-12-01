@@ -12,8 +12,11 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    overflow-x: auto;
 }
-
+.icons::-webkit-scrollbar{
+    display: none;
+}
 .icon p{
     font-size: 13px;
     font-weight: 400;
@@ -27,6 +30,7 @@
     display: flex;
     align-items: center;
     gap: 20px;
+    justify-content: space-between;
 }
 .btn{
     display: flex;
@@ -60,6 +64,7 @@
     padding: 12px;
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 .item-container{
     margin-top: 23px;
@@ -183,3 +188,29 @@
     background-color: #000000;
     cursor: pointer;
 }
+
+@media screen and (max-width: 980px) {
+    .icons-container{
+            width: 150p;
+        }
+    .btn{
+        display: none;
+    }
+    .scroll-btn .scroll-right{
+        position: absolute;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .icon-body{
+        width: 120px;
+    }
+    .item-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 35px;
+    }
+    .item{
+        width: 390px;
+    }
+}
+

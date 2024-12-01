@@ -156,3 +156,19 @@ body{
     z-index: 100;
     background-color: white;
 }
+
+@media screen and (max-width: 980px) {
+    .header-second-container {
+        top: 10px;
+    }
+    .header-third-container{
+        margin-top: 25px;
+        width: 820px;
+        justify-content: center;
+    }
+    .flex-div{
+        padding: 10px;
+        /* Add padding for better spacing */
+        gap: 5px;
+    }
+}

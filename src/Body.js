@@ -1,16 +1,31 @@
-import React from 'react'
+import React, { useRef, useState } from 'react'
 import './Body.css'
 import data from './icons.json'
 import items from './items.json'
 
 const Body = () => {
+  const containerRef = useRef(null);
+  const horizontalScroll = (direction)=>{
+    const scrollAmount = 150;
+    if (direction === 'left'){
+      containerRef.current.scrollBy({left:-scrollAmount, behavior: "smooth"})
+    }
+    else{
+      containerRef.current.scrollBy({left: scrollAmount, behavior: "smooth"})
+      setLeftDisplay('');
+    }
+  }
+  const [leftDisplay, setLeftDisplay]=useState('none');
   return (
     <div className='container'>
         <div className="border-top"></div>
         <div className="body">
-          <div className="icon-body">
+          <div className="icon-body" >
+            <button className="scroll-btn scroll-left" onClick={()=>{horizontalScroll("left")}} style={{display:leftDisplay}}>
+                <i className='fas fa-angle-left'/>
+              </button>
             <div className="icons-container">
-              <div className="icons">
+              <div className="icons" ref={containerRef}>
               {data.map((item, index)=> (
                 <div className="icon">
                   <i className={item.icon}/>
@@ -18,8 +33,8 @@ const Body = () => {
                 </div>
               ))}
             </div>
-              <button className="scroll-btn">
-                <i className='fas fa-arrow-right'/>
+              <button className="scroll-btn scroll-right" onClick={()=>{horizontalScroll("right")}}>
+                <i className='fas fa-angle-right'/>
               </button>
             </div>
             
